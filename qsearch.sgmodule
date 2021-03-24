@@ -49,6 +49,8 @@
 # 无指令则转 Google 搜索
 
 [URL Rewrite]
+# sf: snowflake
+^https:\/\/duckduckgo.com\/\?q=sf\+([^&]+).+ https://pixelatomy.com/snow-stamp/?s=$1 302
 
 #gm   (Google图片)
 ^https:\/\/duckduckgo.com\/\?q=gm\+([^&]+).+ https://www.google.com/search?&tbm=isch&q=$1 302
