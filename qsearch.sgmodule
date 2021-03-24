@@ -118,7 +118,7 @@
 
 # > 购物
 # stx: stockx
-^https:\/\/duckduckgo.com\/\?q=zdm\+([^&]+).+ https://stockx.com/zh-cn/search?s=$1 302
+^https:\/\/duckduckgo.com\/\?q=stx\+([^&]+).+ https://stockx.com/zh-cn/search?s=$1 302
 
 # zdm: 什么值得买
 ^https:\/\/duckduckgo.com\/\?q=zdm\+([^&]+).+ https://search.m.smzdm.com/?v=b&s=$1 302
